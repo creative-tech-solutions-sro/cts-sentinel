@@ -63,13 +63,6 @@ local ok = exports['cts_sentinel']:VerifyAction(source, 'user', coords, 5.0)
 | `server/config.lua` | `CtsSentinelConfig.AdminExclusions` — identifiers that bypass all checks (set your own `license:` / `discord:` / `steam:` entries) |
 | `bans.json` | Persistent ban list (runtime data) |
 
-## Repository notes
-
-- `bans.json` is shipped empty — it is runtime data on live servers. Do not publish
-  your real ban list (it contains player identifiers and IPs).
-- Invite and server-name strings are placeholders (`discord.gg/your-server`).
-- `html/map.glb` is ~52 MB. If GitHub warns during push, consider
-  [Git LFS](https://git-lfs.com/) for `*.glb`.
 
 ## Files
 
