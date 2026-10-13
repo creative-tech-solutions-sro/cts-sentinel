@@ -1,0 +1,16 @@
+{
+    "discordInvite": "discord.gg/your-server",
+    "reqSteam": true,
+    "antiVpn": true,
+    "txadmin": true,
+    "revealBanReason": true,
+    "banIp": true,
+    "antiRelease": true,
+    "antiSpoofAi": true,
+    "globalBan": true,
+    "antiSpoof": true,
+    "antiCrash": true,
+    "autoInstall": false,
+    "reqDiscord": true,
+    "locals": "en"
+}
